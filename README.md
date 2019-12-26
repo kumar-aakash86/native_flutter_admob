@@ -6,6 +6,7 @@
 Plugin to integrate Firebase Native Admob to Flutter application
 
 ***Warning:***
+This is a forked version of flutter_native_admob
 The plugin is based on Flutter `PlatformView` (`AndroidView`) to create a custom widget from Native View. Therefore, only Android is supported at the moment.
 For iOS, wait for Flutter team to implement `iOSView` equivalent.
 
