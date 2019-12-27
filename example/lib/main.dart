@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:native_flutter_admob/native_flutter_admob.dart';
+import 'package:flutter_native_admob/native_flutter_admob.dart';
 
 void main() => runApp(MyApp());
 
