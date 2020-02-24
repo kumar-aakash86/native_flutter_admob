@@ -1,4 +1,4 @@
-package com.nover.flutternativeadmobexample
+package com.nover.nativeflutteradmobexample
 
 import android.os.Bundle
 

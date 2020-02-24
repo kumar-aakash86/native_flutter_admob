@@ -1,6 +1,6 @@
-# flutter_native_admob_example
+# native_flutter_admob_example
 
-Demonstrates how to use the flutter_native_admob plugin.
+Demonstrates how to use the native_flutter_admob plugin.
 
 ## Getting Started
 

@@ -1,8 +1,8 @@
-#import "FlutterNativeAdmobPlugin.h"
-#import <flutter_native_admob/flutter_native_admob-Swift.h>
+#import "NativeFlutterAdmobPlugin.h"
+#import <native_flutter_admob/native_flutter_admob-Swift.h>
 
-@implementation FlutterNativeAdmobPlugin
+@implementation NativeFlutterAdmobPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
-  [SwiftFlutterNativeAdmobPlugin registerWithRegistrar:registrar];
+  [SwiftNativeFlutterAdmobPlugin registerWithRegistrar:registrar];
 }
 @end

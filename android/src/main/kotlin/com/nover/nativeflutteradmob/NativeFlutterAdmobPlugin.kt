@@ -1,4 +1,4 @@
-package com.nover.flutternativeadmob
+package com.nover.nativeflutteradmob
 
 import android.content.Context
 import com.google.android.gms.ads.MobileAds
@@ -12,7 +12,7 @@ enum class CallMethod {
   initialize, setStyle
 }
 
-class FlutterNativeAdmobPlugin(
+class NativeFlutterAdmobPlugin(
     private val channel: MethodChannel,
     private val context: Context
 ): MethodCallHandler {
@@ -24,8 +24,8 @@ class FlutterNativeAdmobPlugin(
     @JvmStatic
     fun registerWith(registrar: Registrar) {
       // channel for the plugin
-      val channel = MethodChannel(registrar.messenger(), "flutter_native_admob")
-      channel.setMethodCallHandler(FlutterNativeAdmobPlugin(channel, registrar.context()))
+      val channel = MethodChannel(registrar.messenger(), "native_flutter_admob")
+      channel.setMethodCallHandler(NativeFlutterAdmobPlugin(channel, registrar.context()))
 
       // create platform view
       registrar

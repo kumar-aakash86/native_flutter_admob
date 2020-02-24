@@ -2,7 +2,7 @@
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
 Pod::Spec.new do |s|
-  s.name             = 'flutter_native_admob'
+  s.name             = 'native_flutter_admob'
   s.version          = '0.0.1'
   s.summary          = 'Admob native ad plugin for Flutter'
   s.description      = <<-DESC

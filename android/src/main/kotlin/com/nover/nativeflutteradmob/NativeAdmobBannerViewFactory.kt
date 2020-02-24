@@ -1,4 +1,4 @@
-package com.nover.flutternativeadmob
+package com.nover.nativeflutteradmob
 
 import android.content.Context
 import android.content.res.Resources
@@ -43,7 +43,7 @@ class NativeAdmobBannerView(
 ) : PlatformView, MethodChannel.MethodCallHandler {
 
   private val view = NativeAdmobBannerViewHoder(context)
-  private val methodChannel: MethodChannel = MethodChannel(messenger, "${FlutterNativeAdmobPlugin.viewType}_$id")
+  private val methodChannel: MethodChannel = MethodChannel(messenger, "${NativeFlutterAdmobPlugin.viewType}_$id")
 
   private val adLoader: AdLoader
 

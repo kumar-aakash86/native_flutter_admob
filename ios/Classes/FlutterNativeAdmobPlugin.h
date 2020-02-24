@@ -1,4 +1,4 @@
 #import <Flutter/Flutter.h>
 
-@interface FlutterNativeAdmobPlugin : NSObject<FlutterPlugin>
+@interface NativeFlutterAdmobPlugin : NSObject<FlutterPlugin>
 @end

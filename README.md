@@ -1,18 +1,26 @@
-[![pub package](https://img.shields.io/pub/v/flutter_native_admob.svg)](https://pub.dartlang.org/packages/flutter_native_admob) 
 
+# Native Flutter Admob
 
-# flutter_native_admob
+[![pub package](https://img.shields.io/pub/v/native_flutter_admob.svg)](https://pub.dartlang.org/packages/native_flutter_admob) [![GitHub stars](https://img.shields.io/github/stars/finotilucas/native_flutter_admob)](https://github.com/finotilucas/native_flutter_admob/stargazers) [![GitHub forks](https://img.shields.io/github/forks/finotilucas/native_flutter_admob)](https://github.com/finotilucas/native_flutter_admob/network) [![GitHub license](https://img.shields.io/github/license/finotilucas/native_flutter_admob)](https://github.com/finotilucas/native_flutter_admob/blob/master/LICENSE) [![GitHub issues](https://img.shields.io/github/issues/finotilucas/native_flutter_admob)](https://github.com/finotilucas/native_flutter_admob/issues)
+
 
 Plugin to integrate Firebase Native Admob to Flutter application
 
 ***Warning:***
-This is a forked version of flutter_native_admob
+This is a forked and updated version of native_flutter_admob
 The plugin is based on Flutter `PlatformView` (`AndroidView`) to create a custom widget from Native View. Therefore, only Android is supported at the moment.
 For iOS, wait for Flutter team to implement `iOSView` equivalent.
 
 ## Getting Started
 
 For help getting started with Flutter, view our online [documentation](http://flutter.io/).
+
+<p>
+
+<img  src="https://github.com/FinotiLucas/native_flutter_admob/blob/master/example/assets/screenshot/1.png?raw=true"  width=265/>
+
+</p>
+
 
 ## How it works
 
@@ -99,3 +107,23 @@ return MaterialApp(
 
 To run example project, please follow this link: [Flutter Firebase](https://firebase.google.com/docs/flutter/setup) to integrate you google services
  
+
+ 
+# 👍 Contribution
+
+Want to contribute? Great!
+Code Sharing makes the world a better place <3
+
+1. Fork it
+2. Create your feature branch (git checkout -b my-new-feature)
+3. Commit your changes (git commit -m 'Add some feature')
+4. Push to the branch (git push origin my-new-feature)
+5. Create new Pull Request
+
+
+### Support
+----
+
+Help us to continue developing solutions for the community 
+
+<a href="https://www.buymeacoffee.com/6cdltqC" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-blue.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" ></a>

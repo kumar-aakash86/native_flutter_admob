@@ -1,5 +1,5 @@
-name: flutter_native_admob_example
-description: Demonstrates how to use the flutter_native_admob plugin.
+name: native_flutter_admob_example
+description: Demonstrates how to use the fnative_flutter_admob plugin.
 publish_to: 'none'
 
 environment:
@@ -17,7 +17,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  flutter_native_admob:
+  native_flutter_admob:
     path: ../
 
 # For information on the generic Dart part of this file, see the

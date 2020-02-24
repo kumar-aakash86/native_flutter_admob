@@ -1,10 +1,10 @@
 import Flutter
 import UIKit
 
-public class SwiftFlutterNativeAdmobPlugin: NSObject, FlutterPlugin {
+public class SwiftNativeFlutterAdmobPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
-    let channel = FlutterMethodChannel(name: "flutter_native_admob", binaryMessenger: registrar.messenger())
-    let instance = SwiftFlutterNativeAdmobPlugin()
+    let channel = FlutterMethodChannel(name: "native_flutter_admob", binaryMessenger: registrar.messenger())
+    let instance = SwiftNativeFlutterAdmobPluginPlugin()
     registrar.addMethodCallDelegate(instance, channel: channel)
   }
 
