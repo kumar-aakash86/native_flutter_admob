@@ -15,6 +15,8 @@ class NativeAdmobBannerView extends StatefulWidget {
   final String adUnitID;
   final BannerStyle style;
   final bool showMedia;
+  final Color containerBackground;
+  final BorderRadius borderRadius;
 
   /// Content padding in format "left, top, right, bottom"
   final EdgeInsets contentPadding;
@@ -27,7 +29,7 @@ class NativeAdmobBannerView extends StatefulWidget {
       this.style = BannerStyle.dark,
       this.showMedia = true,
       this.contentPadding = const EdgeInsets.all(8.0),
-      this.onCreate})
+      this.onCreate, this.containerBackground, this.borderRadius})
       : assert(adUnitID.isNotEmpty),
         super(key: key);
 
@@ -48,6 +50,10 @@ class _NativeAdmobBannerViewState extends State<NativeAdmobBannerView> {
 
       return Container(
         height: height,
+        decoration: BoxDecoration(
+          color: widget.containerBackground ?? Colors.transparent,
+          borderRadius: widget.borderRadius ?? BorderRadius.circular(0.0)
+        ),
         child: AndroidView(
           viewType: NativeAdmobBannerView._viewType,
           onPlatformViewCreated: _onPlatformViewCreated,
