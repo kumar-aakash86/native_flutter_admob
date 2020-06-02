@@ -60,7 +60,7 @@ class _NativeAdmobBannerViewState extends State<NativeAdmobBannerView> {
           creationParamsCodec: StandardMessageCodec(),
           creationParams: {
             "adUnitID": widget.adUnitID,
-            // "style": style,
+            "style": style,
             "showMedia": widget.showMedia,
             "contentPadding": contentPadding
           },
